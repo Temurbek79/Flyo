@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'Raleway';
+    font-style: 400;
+    src: url(Raleway/static/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: 700;
+    src: url(Raleway/static/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: 400;
+    src: url(Open_Sans/static/OpenSans-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #ffffff;
+    color: #333;
+}
+
+header {
+    background: #ffffff;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    margin: 0 50px;
+}
+
+.conrtainer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header nav a {
+    color: hsl(238, 22%, 44%);
+    margin: 0 30px;
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+    list-style: none;
+}
+
+li a:hover {
+    color: hsl(224, 93%, 58%);
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    background: #fff;
+}
+
+section{
+    margin: 40px;
+}
+
+.box-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+section h1 {
+    color: hsl(243, 87%, 12%);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 40px;
+    margin: 50px 0 10px 30px;
+}
+
+section p {
+    color: hsl(243, 87%, 12%);
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.started-free {
+    color: hsl(0, 0%, 75%);
+    width: 320px;
+    height: 45px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-left: 30px;
+}
+
+button {    
+    background: hsl(224, 93%, 58%);
+    color: #fff;
+    margin-left: 10px;
+    width: 180px;
+    height: 45px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}   
+
+.illustration-group1 {
+    width: 755px;
+    height: 560px;
+    margin-right: 80px;
+}
+
+.section-2 {
+    background-color: hsl(240, 75%, 98%);
+}
+
+.section-2-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.work-see {
+    margin-left: 30px;
+    color: hsl(170, 45%, 43%);
+    text-decoration: none;
+    font-family: 'Open Sans';
+    border-bottom: 3px solid hsl(170, 45%, 43%);
+}
+
+.kyle-box {
+    position: relative;
+    padding-top: 30px;
+    width: 600px;
+    height: 100px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.icon-quotes {
+    margin-left: 30px;
+}
+
+
+
+
+    /* footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+} */
