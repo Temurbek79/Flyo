@@ -65,7 +65,7 @@ main {
     background: #fff;
 }
 
-section{
+section {
     margin: 40px;
 }
 
@@ -82,7 +82,7 @@ section h1 {
     margin: 50px 0 10px 30px;
 }
 
-section p {
+.section-p {
     color: hsl(243, 87%, 12%);
     font-family: 'Open Sans';
     font-weight: 400;
@@ -102,7 +102,12 @@ section p {
     margin-left: 30px;
 }
 
-button {    
+.started-free:hover {
+    color: hsl(224, 93%, 58%);
+    border: none;
+}
+
+button {
     background: hsl(224, 93%, 58%);
     color: #fff;
     margin-left: 10px;
@@ -112,7 +117,7 @@ button {
     padding: 10px 20px;
     border-radius: 3px;
     cursor: pointer;
-}   
+}
 
 .illustration-group1 {
     width: 755px;
@@ -152,10 +157,33 @@ button {
     margin-left: 30px;
 }
 
+.box-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.kyle-bruton {
+    margin: 40px 0px 0px 30px;    
+    width: 350px;
+    height: 200px;
+    border-radius: 2%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.illustration-group2 {
+    width: 755px;
+    height: 560px;
+    margin-top: 60px;
+    margin-right: 80px;
+}
 
 
 
-    /* footer {
+
+/* footer {
     background: #333;
     color: #fff;
     text-align: center;
