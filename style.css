@@ -165,12 +165,52 @@ button {
 }
 
 .kyle-bruton {
-    margin: 40px 0px 0px 30px;    
+    margin: 40px 0px 0px 30px;
     width: 350px;
     height: 200px;
     border-radius: 2%;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.icon-quotes {
+    margin: 20px 0px 0px 25px;
+}
+
+.kyle-bruton p {
+    margin-left: 25px;
+    color: hsl(243, 87%, 12%);
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar-icon {
+    margin: 15px 0px 0px 25px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.kyle-fish {
+    position: absolute;
+    top: 1394px;
+    left: 175px;
+    color: hsl(243, 87%, 12%);
+    font-family: 'Raleway';
+    font-weight: 700;
+}
+
+.kyle-ceo {
+    position: absolute;
+    top: 1410px;
+    left: 175px;
+    color: white;
+
 }
 
 .illustration-group2 {
