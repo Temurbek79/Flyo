@@ -21,8 +21,15 @@
     --secondary-color: hsl(224, 93%, 70%);
     --text-color: hsl(243, 87%, 12%);
     --text-color-light: hsl(240, 75%, 98%);
-    --background-color: #fff;
+    --list-color: hsl(238, 22%, 44%);
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
     background-color: #f8f9fa;
     padding: 20px;
@@ -32,12 +39,29 @@ header {
 }
 
 .navbar {
+    color: var(--primary-color);
     display: flex;
     justify-content: space-around;
 }
 
 li {
+    color: var(--list-color);
     margin: 20px;
     list-style: none;
     display: inline-block;
+}
+
+h1 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--text-color);
+}
+
+.firm-one {
+    line-height: 1.5;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--text-color);
 }
