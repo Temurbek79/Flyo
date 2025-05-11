@@ -16,6 +16,13 @@
     src: url(Open_Sans/static/OpenSans-Regular.ttf);
 }
 
+/*  */
+.padding {
+    padding: 20px;
+}
+
+/*  */
+
 :root {
     --primary-color: hsl(224, 93%, 58%);
     --secondary-color: hsl(224, 93%, 70%);
@@ -51,17 +58,25 @@ li {
     display: inline-block;
 }
 
-h1 {
+.box-head {
+    display: flex;
+    justify-content: space-around;
     font-family: 'Raleway';
     font-weight: 700;
-    font-size: 40px;
     color: var(--text-color);
+}
+
+h1 {
+    font-size: 40px;
 }
 
 .firm-one {
     line-height: 1.5;
-    font-family: 'Raleway';
     font-weight: 400;
     font-size: 14px;
-    color: var(--text-color);
+}
+
+.hero-img {
+    width: 700px;
+    height: 600px;
 }
